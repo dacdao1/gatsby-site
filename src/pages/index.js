@@ -125,7 +125,7 @@ class HomeIndex extends React.Component {
                         </ul>
                         <p>You can download my full resume by clicking on the button below.</p>
                             <ul className="actions">
-                                <li><a href="https://drive.google.com/open?id=1vKlUC3m_yfGIq4ADhGzfJtDpFAP3rUvK" className="button">Download</a></li>
+                                <li><a href="https://drive.google.com/open?id=1KqVQ8huN5URqAQIGEZXLTu5e_hIzTpxm" className="button">Download</a></li>
                             </ul>
                     </section>
 
