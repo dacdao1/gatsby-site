@@ -9,7 +9,7 @@ import Cool90 from '../assets/images/90_project.png'
 import RecipeNuxt from '../assets/images/recipenuxt.png'
 import freeingRe from '../assets/images/freeingRe.png'
 import reactProject from '../assets/images/react_project.png'
-import JythonIm from '../assets/images/JythonIm.png'
+import weather from '../assets/images/weather.png'
 
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
@@ -75,11 +75,11 @@ class Portfolio extends React.Component {
       {/* project 2*/}
       <Col sm>
       <Card style={{ width: '19rem' }}>
-      <Card.Img variant="top" src={Cool90} />
+      <Card.Img variant="top" src={weather} />
       <Card.Body>
         <Card.Title>Weather App</Card.Title>
         <Card.Text>
-          This project was built with Express JS, Node JS, HBS and deploy with Heroku. The purpose of this app is to tell the weather at your current location. The API that I used to retrieve the current weather is from Darksky.net. You can visit the working site <a herf="https://dao-nodejs-weather.herokuapp.com/"> here </a>
+          This project was built with Express JS, Node JS, HBS and deploy with Heroku. The purpose of this app is to tell the weather at your current location. The API that I used to retrieve the current weather is from Darksky.net. You can visit the working site <a href="https://dao-nodejs-weather.herokuapp.com/"> here </a>
         </Card.Text>
         <Button variant="primary" href="https://github.com/dacdao1/90s-cool">Source Code</Button>
       </Card.Body>
@@ -99,7 +99,7 @@ class Portfolio extends React.Component {
       <Card.Body>
         <Card.Title>Recipe website</Card.Title>
         <Card.Text>
-          I learned how to use Nuxt.js (a framework for creating Vue.js applications) and also created this recipe website to demonstrate my skills with Nuxt.js and Vue.js. You can visit the working site <a herf="https://dacdao1.github.io/recipe-by-nuxtjs"> here </a><br/>
+          I learned how to use Nuxt.js (a framework for creating Vue.js applications) and also created this recipe website to demonstrate my skills with Nuxt.js and Vue.js. You can visit the working site <a href="https://dacdao1.github.io/recipe-by-nuxtjs"> here </a><br/>
 
         </Card.Text>
         <Button variant="primary" href="https://github.com/dacdao1/recipe-by-nuxtjs">Source Code</Button>
@@ -116,7 +116,7 @@ class Portfolio extends React.Component {
       <Card.Body>
         <Card.Title>Freeing Return</Card.Title>
         <Card.Text>
-          A mock website that I created for a startup here in Atlanta. I used HTML, CSS and JavaScript to create this website. There are also some animation within this website and it is also reponsive to the device that it is on. You can visit the working site <a herf="https://dacdao1.github.io/"> here </a> <br/>
+          A mock website that I created for a startup here in Atlanta. I used HTML, CSS and JavaScript to create this website. There are also some animation within this website and it is also reponsive to the device that it is on. You can visit the working site <a href="https://dacdao1.github.io/"> here </a> <br/>
 
         </Card.Text>
         <Button variant="primary" href="https://github.com/dacdao1/dacdao1.github.io">Source Code</Button>
@@ -152,7 +152,7 @@ class Portfolio extends React.Component {
       <Card.Body>
         <Card.Title>90s website</Card.Title>
         <Card.Text>
-          This website was built with just HTML and CSS. There is nothing to special about the code itself, but I just wanted to create a 90's style website to practice my HTML5 and CSS3 and also try to go back in time. You can visit the working site <a herf="https://dacdao1.github.io/90s-cool/"> here </a> 
+          This website was built with just HTML and CSS. There is nothing to special about the code itself, but I just wanted to create a 90's style website to practice my HTML5 and CSS3 and also try to go back in time. You can visit the working site <a href="https://dacdao1.github.io/90s-cool/"> here </a>
 
         </Card.Text>
         <Button variant="primary" href="https://github.com/dacdao1/90s-cool">Source Code</Button>
