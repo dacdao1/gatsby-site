@@ -46,7 +46,7 @@ class Portfolio extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Full portfolio description wth description</h2>
+                            <h2>Full portfolio with description</h2>
                             <br></br>
                         </header>
 
